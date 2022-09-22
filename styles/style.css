@@ -6,3 +6,143 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+    margin: 0px;
+    color: 1A1A1A;
+}
+
+header{
+    display:flex;
+    
+  justify-content: space-between;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;   
+    list-style:none;
+    font-size: 1.3rem;
+}
+header img{
+    height: 55px;
+}
+.landing{
+    display:flex;
+    background-image: url("../images/landing.jpg");
+    height: 110vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    flex-direction: column;
+        
+}
+.fonth1{
+    font-size: 5rem;
+}
+.fonth5{
+    font-size: 2.5rem;
+    font-weight:lighter;
+    margin: 5px;
+    
+}
+ section header h1.fontHeader{
+    font-size: 2.5rem;
+    margin: 50px;
+    border-bottom: 5px solid #00B172;
+    
+ }
+.section2{
+    display: flex;
+    justify-content: center;
+    
+}
+.spotifySection{
+    display: flex;
+    justify-content: space-around;
+
+}
+.itens{
+    height: 70px;
+    width: 70px;
+      
+}
+.spotifySection>div{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+.green{
+    color:#00B172;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fontSpotify{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 5px;
+}
+section.greenSection{
+    
+    background-color: #00B172;
+    margin: 5%;
+    height: auto;
+    background-image: url("../images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-size: 110px;
+    background-position: center;
+        
+}
+
+section.greenSection>div{
+    display: flex;
+    justify-content: space-around;
+}
+.spotifyApp{
+    height: 600px;
+    
+}
+.fontWhite{
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFF;
+    font-size: 2.5rem;
+    margin-left: 10%;
+    border-bottom: 5px solid #FFF;
+}
+
+section.greenSection>div>div.imageSetting{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    
+    
+}
+section.greenSection>div>div.imageSetting>ul
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFF;
+    font-weight: bolder;
+    list-style: none;
+
+}
+.listTopic{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#FFF;
+    font-weight: lighter;
+}
+section.greenSection img{
+    height: 400px;
+    
+}
+@media(max-width: 400px){
+    
+}
