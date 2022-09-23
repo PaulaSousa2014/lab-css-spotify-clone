@@ -63,6 +63,7 @@ header img{
 .spotifySection{
     display: flex;
     justify-content: space-around;
+    
 
 }
 .itens{
@@ -81,6 +82,8 @@ header img{
     color:#00B172;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    
+   
 }
 .fontSpotify{
     font-weight: lighter;
@@ -89,12 +92,14 @@ header img{
     font-size: 1.5rem;
     text-align: center;
     margin: 5px;
+    width: 30vw;
+    
 }
 section.greenSection{
     
     background-color: #00B172;
     margin: 5%;
-    height: auto;
+    height:700px;
     background-image: url("../images/spotify-icon-white.png");
     background-repeat: no-repeat;
     background-size: 110px;
@@ -104,17 +109,20 @@ section.greenSection{
 
 section.greenSection>div{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    
+
 }
 .spotifyApp{
-    height: 600px;
+    height: 80%;
+    padding: 10%;
     
 }
 .fontWhite{
     font-weight: lighter;
     font-family: Arial, Helvetica, sans-serif;
     color:#FFF;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin-left: 10%;
     border-bottom: 5px solid #FFF;
 }
@@ -122,7 +130,8 @@ section.greenSection>div{
 section.greenSection>div>div.imageSetting{
     display: flex;
     flex-direction: column;
-    width: 20vw;
+    width: 30vw;
+    padding: 5%;
     
     
 }
@@ -143,6 +152,8 @@ section.greenSection img{
     height: 400px;
     
 }
-@media(max-width: 400px){
-    
+@media(max-width: 500px){
+   section.greenSection div img{
+    display: none;
+   } 
 }
