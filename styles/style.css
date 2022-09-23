@@ -127,7 +127,7 @@ section.greenSection>div{
     border-bottom: 5px solid #FFF;
 }
 
-section.greenSection>div>div.imageSetting{
+.imageSetting{
     display: flex;
     flex-direction: column;
     width: 30vw;
@@ -135,8 +135,7 @@ section.greenSection>div>div.imageSetting{
     
     
 }
-section.greenSection>div>div.imageSetting>ul
-{
+.imageSetting>ul{
     font-family: Arial, Helvetica, sans-serif;
     color:#FFF;
     font-weight: bolder;
@@ -152,8 +151,33 @@ section.greenSection img{
     height: 400px;
     
 }
-@media(max-width: 500px){
-   section.greenSection div img{
-    display: none;
+@media(max-width: 620px){
+    .greenSection >div{ 
+    flex-direction: column;
+    align-self: flex-end;
+    width: 100%;
    } 
+   
+
+   .respList{
+    display: none;
+   }
+   .spotifySection{
+    flex-direction: column;
+   }
+   section.greenSection{
+    background-image: none;
+       
+}
+.imageSetting >ul{
+    width: 100%;
+    padding: 0%;
+}
+.imageSetting{
+    width: 100%;
+    
+    
+    
+}
+   
 }
